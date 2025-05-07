@@ -1,0 +1,1 @@
+galima naudoti kad gauti system information ir su ta information kaip pvz kernel version exploitinti

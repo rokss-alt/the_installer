@@ -1,0 +1,1 @@
+leidzia ieskoti specifisko teksto

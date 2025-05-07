@@ -1,0 +1,5 @@
+There are several strong tools that help secure `Linux` systems and protect both our data and the data of other companies. Three important ones are `SELinux`, `AppArmor`, and `TCP wrappers`. These tools are designed to defend against a wide range of threats, from `unauthorized access` to `malicious attacks`.
+
+This protection matters not just during `penetration tests`, where we deliberately try to break into systems to find weaknesses, but also in real-world situations—where a real security breach could have serious consequences (and few things are worse than a real-life attack).
+
+By setting up these tools and putting proper defenses in place, we can greatly lower the chance of `data leaks` and make sure our systems stay safe. While `SELinux`, `AppArmor`, and `TCP wrappers` share some similarities, they each have important differences in how they work and what they offer.

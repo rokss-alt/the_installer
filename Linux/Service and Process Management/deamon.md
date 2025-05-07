@@ -1,0 +1,1 @@
+Daemons are often identified by the letter `d` at the end of their program names, such as `sshd` (SSH daemon) or `systemd`. Just as a car relies on both its core components and optional features to provide a complete experience, a Linux system utilizes both system and user-installed services to function efficiently and meet user needs.

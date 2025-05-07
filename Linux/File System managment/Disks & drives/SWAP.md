@@ -1,0 +1,1 @@
+Swap space helps manage memory in Linux, especially when the computer runs out of RAM. When that happens, the system moves less-used data from RAM to the swap space to free up memory for programs that need it right away. This process is called `swapping` and helps keep the system running smoothly.

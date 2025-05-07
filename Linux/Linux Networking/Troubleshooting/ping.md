@@ -1,0 +1,1 @@
+Lets you see if a server is online

@@ -1,0 +1,3 @@
+A web server is software that delivers data, documents, applications, and various functions over the Internet. It utilizes the Hypertext Transfer Protocol (`HTTP`) to transmit data to clients such as web browsers and to receive requests from these clients.
+
+For Apache, to specify which folders can be accessed, we can edit the file `/etc/httpd/conf/httpd.conf` with a text editor. This file contains the global settings. We can change the settings to specify which directories can be accessed and what actions can be performed on those directories.

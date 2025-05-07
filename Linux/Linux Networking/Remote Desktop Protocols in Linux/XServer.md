@@ -1,0 +1,9 @@
+The [[XServer]] is the part of the [[X11]] (X Window System) that runs on the user's side. [[X11]] is a set of protocols and tools that let applications open graphical windows on your screen. It's mainly used on Unix systems, but you can also find [[XServer]] programs for other operating systems. Today, most Linux desktop systems like Ubuntu already come with an [[XServer]], so you don’t need to install it yourself.
+
+When you start the desktop on a Linux machine, the graphical interface talks to the system through the [[XServer]]. Even if your computer isn’t connected to a network, this communication happens over the internal network. One of the great things about [[X11]] is its "network transparency"—it works over networks just as well as it does locally. It mainly uses TCP/IP, but it can also work with Unix sockets.
+
+The [[XServer]] uses TCP ports in the range 6000–6009. For example, port 6000 is used when starting the first desktop session, display `:0`. These ports allow the [[XServer]] to do things like run applications and let clients connect from other systems. This makes it possible to access programs and data from anywhere, even remotely. These ports also help with secure file and data sharing—so the [[XServer]] isn’t tied to just one machine. A remote system can use your local [[XServer]], and your system can use a remote one too.
+
+Unlike [[VNC]] or [[RDP]], which send the entire graphical output over the network from the remote system, [[X11]] sends the commands and renders the graphics on your local machine. This uses less bandwidth and reduces the load on the remote system.
+
+However, [[X11]] has one big downside: it doesn’t encrypt the data it sends. This can be fixed by using [[SSH]] tunneling. To do this, you just need to enable [[X11]] forwarding in the SSH config file on the remote server (`/etc/ssh/sshd_config`) by setting `X11Forwarding yes`.

@@ -1,0 +1,1 @@
+leidzia filtruoti STDOUT pagal mano paskirta reikalavima

@@ -1,0 +1,3 @@
+`MAC` (Mandatory Access Control) gives more strict and detailed control over who can access resources than `DAC`. In a MAC system, every file or resource gets a `security label`, and every user or program gets a `security clearance`. Access is only allowed if the user's or process's clearance is equal to or higher than the resource’s level.
+
+MAC is commonly used in high-security environments like `military`, `government`, `finance`, and `healthcare` systems. It’s designed to block unauthorized access and reduce the damage from security breaches.

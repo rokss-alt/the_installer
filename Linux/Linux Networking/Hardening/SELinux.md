@@ -1,0 +1,3 @@
+`Security-Enhanced Linux (SELinux)` is a `mandatory access control` ([[MAC]]) system built into the Linux kernel. It gives very detailed control over what processes and files can do by using `security policies`. These policies set the permissions for every process and file on the system, which helps limit the damage if something gets compromised.
+
+Since SELinux works deep in the system, it offers strong security. However, because it controls things at such a detailed level, it can be tricky to set up and manage.

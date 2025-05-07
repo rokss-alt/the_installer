@@ -1,0 +1,3 @@
+Every storage drive or partition needs to be connected to a folder in the system so you can use it. This is called `mounting`. When you mount a drive, you link it to a specific folder (called a _mount point_), and after that, you can use it just like any other folder on the computer.
+
+if you want certain file systems or partitions to be automatically mounted when the system boots, you can define them in the `/etc/fstab` file.

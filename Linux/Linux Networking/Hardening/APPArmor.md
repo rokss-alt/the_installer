@@ -1,0 +1,3 @@
+Like [[Linux Networking/Hardening/SELinux]], `AppArmor` is a [[MAC]] system that controls access to system resources and applications. However, AppArmor is simpler and more user-friendly. It’s implemented as a `Linux Security Module (LSM)` and uses application `profiles` to define what resources each app can access.
+
+While it doesn’t have the same level of detailed control as `SELinux`, AppArmor is easier to set up and is often preferred for everyday use.

@@ -1,0 +1,1 @@
+`Remote Desktop Protocol` (`RDP`): Primarily used in Windows environments. RDP allows administrators to connect remotely and interact with the desktop of a Windows machine as if they were sitting right in front of it.

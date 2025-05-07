@@ -1,0 +1,1 @@
+paraso viska lange kuri gali poto isjungti
